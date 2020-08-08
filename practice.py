@@ -1,17 +1,14 @@
-print((2 + 3) * 4)
-number = 2 + 3 * 4
-print(number)
-number = number + 2
-print(number)
-number += 2
-print(number)
-number *= 2
-print(number)
-number /= 2
-print(number)
-number -= 2
-print(number)
+python = "Python is Amazing"
+print(python.lower())
+print(python.upper())
+print(python[0].isupper())
+print(len(python))
+print(python.replace("Python", "Java"))
 
+index = python.index("n")
+print(index)
+index = python.index("n", index + 1)
+print(index)
 
-number %= 2
-print(number)
+print(python.find("n"))
+print(python.index("Java"))
